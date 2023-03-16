@@ -34,7 +34,7 @@
     display: flex;
     font-size: 9px;
     align-items: center;
-    font-family: 'Fredoka One', cursive;
+    
 }
 
 .navigation a {
@@ -81,6 +81,45 @@ button {
 }
 .content__text{
 margin: 3px;
-font-family: 'Fredoka One', cursive;
+}
+.content__img{
+    width: 100%;
+}
 
+.content__tittle{
+    
+}
+
+.resume{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 6px
+}
+
+.resume__tittle{
+    text-align: center;
+    background: black;
+    color: white;
+    width: 97%;
+}
+
+.resume__img{
+width: 100%;
+}
+
+.repo{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}
+.repo a{
+    text-decoration: none;
+    color: black;
+}
+.repo__tittle{
+    text-align: center;
+    color: white;
+    background: black;
 }
